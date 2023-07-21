@@ -1,0 +1,19 @@
+
+.personnage {
+
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin:20px;
+    flex-wrap: wrap;
+}
+
+
+.liste_personnages {
+
+    display: flex;
+    flex-wrap: wrap;
+}
