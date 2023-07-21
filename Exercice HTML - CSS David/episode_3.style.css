@@ -1,0 +1,137 @@
+* {
+    margin:0%;
+    padding: 0%;
+}
+
+@font-face {
+    font-family: 'StarWarsFont';
+    src: url('./Fonts/Starjedi.ttf') format('truetype');
+  }
+
+  body {
+    font-family: 'StarWarsFont', sans-serif;
+    background-color: black;
+    background-image: url('./Images/rayons-lignes-dynamiques-abstraites-etoile_272897-340.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+.logo img {
+    height: 75px;
+    margin-top: 5px;
+
+}
+
+
+.header {
+    display:flex;
+    justify-content: space-between;
+    height:50px;
+    margin-bottom: 30px;
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-right: 150px;
+    margin-top: 10px;
+}
+
+
+.menu a {
+    text-decoration: none;
+    color:#EEB902;
+
+}
+
+.episode:hover {
+    width: 150px;
+}
+
+
+.episode {
+    width: 100px;
+}
+
+
+.user {
+    margin-right: 20px;
+    background-color: black;
+    margin-top: 50px;
+}
+
+
+button {
+    background-color: black;
+    border-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'StarWarsFont';
+    src: url('./Fonts/Starjhol.ttf') format('truetype');
+}
+
+
+button a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+.ep3 {
+    padding-top: 70px;
+    float: left;
+}
+
+.ep3 img {
+    width:50px;
+    float: left;
+}
+
+
+.description {
+    color:white;
+}
+
+h2 {
+    color:white;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.perso {
+    width: 400px;
+}
+
+.perso:hover {
+    width: 500px;
+}
+
+
+footer {   
+    color:black;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-around;
+    background-color: #EEB902;
+}
+
+
+.foot1 {
+    margin-bottom:10px;
+}
+
+
