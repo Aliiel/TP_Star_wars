@@ -5,7 +5,7 @@ class Character{
     }
 }
 
-const characters = [
+ const characters = [
     new Character("Adi Gallia", "adi.png"),
     new Character("Aks Moe", "aks.png"),
     new Character("Anakin Skywalker", "anakin.png"),
@@ -39,4 +39,4 @@ const characters = [
     new Character("Yoda", "yoda.png"),
 ]
 
-console.log(characters);
+export {characters};
